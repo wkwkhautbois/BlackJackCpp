@@ -10,6 +10,6 @@ public:
 	virtual ~Hand();
 	void add(const Card& card);
 	const int calcPoint() const;
-	const std::vector<Card>& getList() const;
+	const Card& getCard(int n) const;
 };
 

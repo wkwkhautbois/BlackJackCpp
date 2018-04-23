@@ -29,7 +29,8 @@ const int Hand::calcPoint() const
 	return point;
 }
 
-const std::vector<Card>& Hand::getList() const
+
+const Card & Hand::getCard(int n) const
 {
-	return _cards;
+	return _cards[n - 1];
 }
