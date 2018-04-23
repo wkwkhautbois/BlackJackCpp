@@ -34,3 +34,8 @@ const Card & Hand::getCard(int n) const
 {
 	return _cards[n - 1];
 }
+
+const int Hand::number() const
+{
+	return _cards.size();
+}

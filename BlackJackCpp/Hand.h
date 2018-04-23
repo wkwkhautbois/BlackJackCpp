@@ -11,5 +11,6 @@ public:
 	void add(const Card& card);
 	const int calcPoint() const;
 	const Card& getCard(int n) const;
+	const int number() const;
 };
 
